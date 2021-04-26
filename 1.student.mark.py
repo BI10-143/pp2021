@@ -44,7 +44,7 @@ def list_students():
     for student in students:
         print("({student['id']}. {student['dob']}. {student['name']}")
 
-def sstudent_marks(course):
+def student_marks(course):
     print("Show marks of the course {course['name']}:")
 
     for student, mark in course['marks']:
