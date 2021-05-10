@@ -21,9 +21,9 @@ print("Choose your decision")
 print("1=YES")
 print("2=NO")
 for i in range(0, len(course)):
-    course = int(input(" Enter your choose: "))
+    course = int(input(f"Please nter your choose: "))
     if ca == 1:
-        print(" Mark of the student ")
+        print("Mark of the student ")
         mark()
         break
     else:
