@@ -17,9 +17,9 @@ while p <= c:
 course()
 mark()
 
-print("  Choose  ")
-print("1=YESsss")
-print("2=NOooo")
+print("Choose your decision")
+print("1=YES")
+print("2=NO")
 for i in range(0, len(course)):
     course = int(input(" Enter your choose: "))
     if ca == 1:
